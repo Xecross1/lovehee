@@ -143,3 +143,12 @@ local Tw = Tween:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, Twe
 {CFrame = CFrame.new(-1066.87158, 32.9949265, 1898.16748, 0, 0, -1, 0, 1, 0, 1, 0, 0)}):Play()
       end
 })
+Tab:AddButton({
+    Name = "ATM",
+    Callback = function()
+              local Tween = game:GetService("TweenService")
+
+local Tw = Tween:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out,0,false,0),
+{CFrame = CFrame.new(906.711426, 66.2207794, -48.2705536, 0, 0, -1, 0, 1, 0, 1, 0, 0)}):Play()
+      end
+})
